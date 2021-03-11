@@ -1,7 +1,8 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import 'swiper/swiper-bundle.css';
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
   // import Swiper styles
+  import './banner.js';
 
 @Component({
   selector: 'app-banner',
@@ -12,18 +13,7 @@ export class BannerComponent implements OnInit,AfterViewInit {
   swiper:any;
   constructor() { }
   ngAfterViewInit(): void {
-     this.swiper = new Swiper('.swiper-container', {
-      speed: 600,
-      parallax: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+
   }
 
   ngOnInit(): void {
