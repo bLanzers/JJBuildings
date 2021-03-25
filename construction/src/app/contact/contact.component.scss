@@ -302,7 +302,7 @@ h3 {
   background-color: #bfbfbf;
 }
 .btn.btn-submit {
-  background-color: #4f6fad;
+  background-color: 00235A;
   border-bottom-color: #374d78;
 }
 .btn.btn-submit:hover {
@@ -338,16 +338,16 @@ form ul li .divider {
   height: 1px;
   width: 50%;
   display: block;
-  background-color: #4f6fad;
-  background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
+  background-color: 00235A;
+  background-image: linear-gradient(to right, #FE5D14, #00235A);
 }
 form ul li .req {
-  color: #ee9cb4;
+  color: #FE5D14;
 }
 form label {
   display: block;
   margin: 0 0 0.5em 0;
-  color: #4f6fad;
+  color: 00235A;
   font-size: 1em;
 }
 form input {
@@ -364,7 +364,7 @@ form textarea {
   color: #555;
 }
 form small {
-  color: #4f6fad;
+  color: #0235A0;
   margin: 0 0 0 0.5em;
 }
 
@@ -428,7 +428,7 @@ form small {
 .contact-us {
   position: relative;
   width: 90px;
-  background: #C3E0EC;
+  background:#FE5D14;
   overflow: hidden;
 }
 .contact-us:before {
@@ -438,7 +438,7 @@ form small {
   left: -100px;
   height: 250px;
   width: 400px;
-  background: #F8B7D8;
+  background: #FE5D14;
   transform: rotate(25deg);
 }
 .contact-us:after {
@@ -448,7 +448,7 @@ form small {
   right: -100px;
   height: 270px;
   width: 400px;
-  background: #9ED8EB;
+  background: #00235A;
   transform: rotate(-25deg);
 }
 
@@ -508,7 +508,7 @@ form small {
   font-weight: 300;
 }
 .address i, .email i, .phone i {
-  color: #F8B7D8;
+  color: #FE5D14;
   font-size: 1.7rem;
   margin-bottom: 20px;
 }
@@ -553,7 +553,7 @@ form button {
   border: 0;
   border-radius: 20px;
   bottom: -20px;
-  background: #9ED8EB;
+  background: #FE5D14;
   color: white;
   font-size: 1.1rem;
   font-weight: 300;
@@ -580,6 +580,7 @@ body {
 .contact-form-container .inner-wrapper{
   width: 100%;
   display: grid;
+  height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr .4fr;
   grid-template-rows: 0.5fr 0.5fr 2fr;
   grid-template-areas: "contact-us header header header" "contact-us address phone email" "contact-us contact-form contact-form contact-form";

@@ -23,7 +23,7 @@ body{
   Padding-right: 5%;
   Padding-left: 5%;
   Background-color: #c1c3cc;
-  background-image: Linear-gradient(76deg,rgba(193, 195, 204, 0.83)35%,rgba(193, 195, 204, 0.28)65%), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+  background-image: Linear-gradient(76deg,rgba(193, 195, 204, 0.83)35%,rgba(193, 195, 204, 0.28)65%), url(../../assets/images/jj13.jpeg);
   background-size: auto, cover;
   background-attachment: scroll, fixed;
 }
@@ -58,7 +58,7 @@ body{
  align-items: center;
  align-self: stretch;
  order: -1;
- background-color: #e47312;
+ background-color: #FE5D14;
 }
 .logo img{
  width:90px;
@@ -83,7 +83,7 @@ body{
  height: 0;
  margin-right: auto;
  margin-left: auto;
- background-color: #e47312;
+ background-color: #FE5D14;
  transition: .2s;
 }
 .navtext::after {
@@ -96,7 +96,7 @@ body{
  height: 0;
  margin-right: auto;
  margin-left: auto;
- background-color: #e47312;
+ background-color: #FE5D14;
  transition: .2s;
 }
 .navtext{
@@ -144,7 +144,7 @@ body{
 }
 .dropdown-link:hover{
  display:block;
- color:#e47312;
+ color:#FE5D14;
  background-color:rgb(241, 241, 247);
 }
 #dropdown-wrapper:hover .dropdown-list{
@@ -167,7 +167,7 @@ body{
 }
 .primary-button{
  padding: 35px 28px 33px;
- background-color:#e47312;
+ background-color:#FE5D14;
  margin-left:20px;
 }
 .menu-hamburg {
@@ -205,10 +205,10 @@ body{
  vertical-align: top;
 }
 .navtext.current {
- color: #e47312;
+ color: #FE5D14;
 }
 .navtext:hover{
- color: #e47312;
+ color: #FE5D14;
 }
 .features-wrapper {
  position: absolute;
@@ -219,8 +219,8 @@ body{
  display: flex;
  width: 1000px;
  padding: 15px 50px 5px 50px;
- background-color: #e47312;
- background-image: linear-gradient(186deg, #e47312, #ff6361);
+ background-color: #FE5D14;
+ background-image: linear-gradient(186deg, #FE5D14, #ff6361);
 }
 .infos-flex {
  z-index: 1;
@@ -386,7 +386,7 @@ body{
  display:inline-block;
  color:#ffffff;
  text-decoration: none;
- background-color: #e47312;
+ background-color: #FE5D14;
  font-size: 12px;
  letter-spacing: 1px;
  text-transform: uppercase;
@@ -463,7 +463,7 @@ a {
  transition-delay: 0s;
 }
 .after-underline-class:hover::after{
- background-color: #e47312;
+ background-color: #FE5D14;
 }
 .service-grid-section-content{
  display:flex;
@@ -562,7 +562,7 @@ img.features-icon{
 }
 .fun-text {
  margin-bottom: 10px;
- color: #e47312;
+ color: #FE5D14;
  font-size: 60px;
  line-height: 70px;
  font-weight: 500;
@@ -638,7 +638,7 @@ img.features-icon{
  justify-content: center;
  align-items: center;
  border-radius: 100%;
- background-image: linear-gradient(59deg, #ff6361, #e47312);
+ background-image: linear-gradient(59deg, #ff6361, #FE5D14);
  color: #fff;
  font-size: 12px;
  line-height: 18px;
@@ -651,8 +651,8 @@ img.features-icon{
 .section-color{
  padding-top: 7%;
  padding-bottom: 7%;
- background-color: #e47312;
- background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+ background-color: #FE5D14;
+ background-image: linear-gradient(72deg, #FE5D14, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
  background-position: 0px 0px, 50% 50%;
  background-size: auto, cover;
  background-repeat: repeat, no-repeat;
@@ -769,7 +769,7 @@ img.features-icon{
  right: 0%;
  bottom: 0%;
  flex-direction: column;
- background-color: #e47312;
+ background-color: #FE5D14;
  display: flex;
  padding: 10px;
 }
@@ -821,7 +821,7 @@ p {
  justify-content: center;
  align-items: stretch;
  border-radius: 100%;
- background-image: linear-gradient(8deg, #ff6361, #e47312);
+ background-image: linear-gradient(8deg, #ff6361, #FE5D14);
  opacity: 1;
  color: #fff;
  font-size: 80px;
@@ -896,7 +896,7 @@ p {
  height: 70px;
  justify-content: center;
  align-items: center;
- background-image: linear-gradient(45deg, #ff6361, #e47312);
+ background-image: linear-gradient(45deg, #ff6361, #FE5D14);
  color: #fff;
  font-size: 26px;
  font-weight: 400;
@@ -923,8 +923,8 @@ img {
 .blog-content {
  width: 100%;
  padding: 25px 56px 25px 30px;
- background-color: #e47312;
- background-image: linear-gradient(158deg, #e47312, #ff6361);
+ background-color: #FE5D14;
+ background-image: linear-gradient(158deg, #FE5D14, #ff6361);
 }
 .top-title.smaller-white.blog {
  margin-right: 0px;
@@ -939,7 +939,7 @@ img {
 }
 .logo-section{
  padding:3% 5%;
- background-image: linear-gradient(56deg, #e47312, #ff6361);
+ background-image: linear-gradient(56deg, #FE5D14, #ff6361);
 
 }
 .algin-center {
@@ -1105,7 +1105,7 @@ img {
  align-items: center;
  align-self: stretch;
  order: -1;
- background-color: #e47312;
+ background-color: #FE5D14;
 }
 @media screen and (max-width: 991px){
 body {
