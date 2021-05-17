@@ -8,7 +8,6 @@
 	perspective-origin: 50% -50%;
   height:100vh;
 }
-
 .js .page {
 	position: relative;
 	z-index: 5;
@@ -527,6 +526,52 @@ html.js,
 	}
 	.poster {
 		margin: 1em;
+	}
+}
+
+@media (max-width: 767px){
+	.js .pages-stack {
+	-webkit-perspective-origin: 50% 90%;
+	perspective-origin: 50% 90%;
+	}
+	
+	.about-content {
+		max-width: 100% !important;
+		width: 100% !important;
+		display: block;
+		margin: 0 !important;
+		padding: 90px 15px 30px !important;
+	}
+	.about-panel .photo-about {
+		position: relative;
+		top: 0;
+		height: 10vh !important;
+		background-size: cover;
+		overflow: hidden;
+		width: 100vw !important;
+		left: -100% ;
+	}
+	.address,.phone,.email{
+		width: 100% !important;
+	}
+
+	.contact-form-container .inner-wrapper {
+		width: 100%;
+		display: block !important;
+		height: auto !important;
+	}
+
+	.contact-form-container, .about-panel-wrapper {
+		background: #F4F3F3;
+		font-family: "Lato", sans-serif;
+		display: inline-block;
+		width: 100% !important;
+		float: left;
+		height: 100vh;
+		padding:30px 0 !important;
+		.contact-us{
+			display: none !important;
+		}
 	}
 }
 /* You can add global styles to this file, and also import other style files */

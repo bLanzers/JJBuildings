@@ -19,7 +19,6 @@ body {
 }
 #gallery {
   margin: 0 auto;
-  padding: 1vw;
   font-size: 1.6rem;
 }
 #gallery h1 {
@@ -38,13 +37,12 @@ body {
 }
 #gallery #images .figure {
   position: relative;
-  width: 30vw;
+  width: 33.33%;
   height: 38rem;
-  margin: 0.5vh;
   background-size: cover;
   overflow: hidden;
   cursor: pointer;
-  background: #20f;
+  background: rgb(0 35 90 / 71%);
 }
 #gallery #images .figure .image {
   position: relative;

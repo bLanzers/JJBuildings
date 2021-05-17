@@ -1,14 +1,14 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+// @import url(http://weloveiconfonts.com/api/?family=entypo);
+// @import url('https://fonts.googleapis.com/css?family=Quicksand');
+// *,
+// *:before,
+// *:after {
+//   box-sizing: border-box;
+// }
 
-html {
-  font-size: 18px;
-}
+// html {
+//   font-size: 18px;
+// }
 
 body {
   font-family: "Quicksand", sans-serif;
@@ -18,13 +18,20 @@ body {
   background: #f0f0f0;
 }
 
+@media (max-width:767){
+  ul{
+  right: 0;
+  }
+}
+
 ul {
   list-style: none;
   position: absolute;
   top: 50%;
-  right: 0%;
-  height:300px;
+  right: 20px;
+  overflow:hidden;
   transform: translateY(-50%);
+ 
   li {
     clear: both;
     a {
@@ -32,12 +39,13 @@ ul {
       margin-left: -2px;
       height: 60px;
       width: 60px;
-      border-radius: 25px 0 0 25px;
+      border-radius:  25px;
       border: 2px solid #000;
-      background: #FFF;
+      // background: #FFF;
       margin-bottom: 1em;
       transition: all .4s ease;
       color: #2980b9;
+      float:right;
       text-decoration: none;
       line-height: 60px;
       position: relative;
@@ -45,16 +53,14 @@ ul {
         cursor: pointer;
         width: 180px;
         color: #fff;
-        display: inline-block;
-        position: relative;
         span {
-          left: 25;
+          left: 0;
         }
       }
       span {
         padding: 0 30px 0 15px;
         position: absolute;
-        left: -120px;
+        right: -120px;
         transition: left .4s ease;
       }
       i {
@@ -66,11 +72,11 @@ ul {
       }
     }
     .facebook {
-      background: rgba(#27ae60, .1);
-      border-color: #27ae60;
-      color: #27ae60;
+      background: (rgba#22A7F0, .1);
+      border-color: #22A7F0;
+      color: #22A7F0;
       &:hover {
-        background: rgba(#27ae60, 1);
+        background: rgba(#22A7F0, 1);
       }
     }
     .email {
@@ -82,19 +88,19 @@ ul {
       }
     }
     .whatsapp {
-      background: rgba(#22A7F0, .1);
-      border-color: #22A7F0;
-      color: #22A7F0;
+      background: rgba(#0dd10d, .1);
+      border-color: #0dd10d;
+      color: #0dd10d;
       &:hover {
-        background: rgba(#22A7F0, 1);
+        background: rgba(#0dd10d, 1);
       }
     }
     .phone {
-      background: rgba(#D2527F, .1);
-      border-color: #D2527F;
-      color: #D2527F;
+      background: rgba(#3caefa, .1);
+      border-color: #3caefa;
+      color: #3caefa;
       &:hover {
-        background: rgba(#D2527F, 1);
+        background: rgba(#3caefa, 1);
       }
     }
   }
@@ -103,39 +109,39 @@ ul {
 
 /* entypo */
 
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
+// [class*="entypo-"]:before {
+//   font-family: 'entypo', sans-serif;
+// }
 
-div {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -60%);
-  h1 {
-    font-weight: 600;
-    font-size: 2.4em;
-    color: #303030;
-    margin-bottom: .5em;
-  }
+// div {
+//   text-align: center;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -60%);
+//   h1 {
+//     font-weight: 600;
+//     font-size: 2.4em;
+//     color: #303030;
+//     margin-bottom: .5em;
+//   }
 
-  p {
-    color: #999;
-    font-weight: 400;
-    font-size: 1.2em;
-  }
+//   p {
+//     color: #999;
+//     font-weight: 400;
+//     font-size: 1.2em;
+//   }
 
-  a {
-    color: #4183D7;
-    text-decoration: none;
-    font-weight: 600;
-    padding-bottom: 2px;
-    border-bottom: 2px dotted #4183D7;
-    transition: all .25s ease;
-    &:hover {
-      color: #D2527F;
-      border-color: #D2527F;
-    }
-  }
-}
+//   a {
+//     color: #4183D7;
+//     text-decoration: none;
+//     font-weight: 600;
+//     padding-bottom: 2px;
+//     border-bottom: 2px dotted #4183D7;
+//     transition: all .25s ease;
+//     &:hover {
+//       color: #D2527F;
+//       border-color: #D2527F;
+//     }
+//   }
+// }

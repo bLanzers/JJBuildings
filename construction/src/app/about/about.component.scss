@@ -3,10 +3,10 @@ $moveup: up-two up-three up-four;
 $break-small: 450px;
 $break-large: 1199px;
 
-$pink: #FF1EAD;
-$dark-purp:#4B384C;
-$med-purp:#632C65;
-$light-purp: #E2A9E5;
+$pink: #FE5D14;
+$dark-purp:#00235A;
+$med-purp:#00235A;
+$light-purp: FE5D14;
 
 
 /*  About Page animation for content  */
@@ -52,7 +52,7 @@ body {
 .container {
   margin: 0;
   padding: 0;
-	background-color: rgba(233, 150, 122, 0.2);
+	background-color:FE5D14;
 	background-color:white;
   overflow-y: auto;
   height: 100vh;
@@ -73,7 +73,7 @@ body {
 	.photo-about{
 		position:relative;
 		top:0;
-		height: 100vh !important;
+		height: 100vh ;
 		background-size: cover;
 		overflow: hidden
 	}
@@ -128,7 +128,7 @@ body {
   float:left;
   padding-top:30px;
   background: white;
-  color:$dark-purp;
+  color:#00235A;
 
   p, blockquote{
     font-size:13px;
@@ -182,7 +182,7 @@ body {
     font-size: 15px !important;
     line-height: 25px !important;
     width: 100%;
-		color: $med-purp;
+		color: #00235A;
 }
 
 /* Generates animations for cascading tiles */
@@ -211,7 +211,7 @@ body {
 }
 
 .photo-about {
-  background: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg") no-repeat center center;
+  background: url("../../assets/images/jj1.jpeg") no-repeat center center;
   background-size: cover;
   z-index: 45;
 
@@ -220,7 +220,7 @@ body {
 .hide-photo-filter {
     position: relative;
     top: 0;
-    background-color: rgba(255, 30, 173, 0.2);
+    background-color:rgb(254 93 20 / 72%);
     z-index: 50;
     width: 100%;
     height: 100%;
