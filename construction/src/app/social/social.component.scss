@@ -18,12 +18,20 @@ body {
   background: #f0f0f0;
 }
 
+@media (max-width:767){
+  ul{
+  right: 0;
+  }
+}
+
 ul {
   list-style: none;
   position: absolute;
   top: 50%;
   right: 20px;
+  overflow:hidden;
   transform: translateY(-50%);
+ 
   li {
     clear: both;
     a {

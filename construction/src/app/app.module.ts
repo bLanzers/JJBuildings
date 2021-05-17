@@ -27,7 +27,7 @@ import { SocialComponent } from './social/social.component';
     SocialComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
