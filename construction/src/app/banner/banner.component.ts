@@ -2,7 +2,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import 'swiper/swiper-bundle.css';
 // import Swiper from 'swiper';
   // import Swiper styles
-  import './banner.js';
+  // import './banner.js';
 
 @Component({
   selector: 'app-banner',

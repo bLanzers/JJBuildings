@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import './menu/menu.js';
+// import './menu/menu.js';
 
 @Component({
   selector: 'app-root',

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import './contact.js';
+// import './contact.js';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
