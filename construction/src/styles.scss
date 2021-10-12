@@ -530,6 +530,11 @@ html.js,
 }
 
 @media (max-width: 767px){
+
+	.contact-form-container[_ngcontent-serverApp-c20], .about-panel-wrapper[_ngcontent-serverApp-c20] {
+		width: 100% !important;
+	}
+
 	.js .pages-stack {
 	-webkit-perspective-origin: 50% 90%;
 	perspective-origin: 50% 90%;
@@ -540,7 +545,7 @@ html.js,
 		width: 100% !important;
 		display: block;
 		margin: 0 !important;
-		padding: 90px 15px 30px !important;
+		padding: 210px 15px 30px !important;
 	}
 	.about-panel .photo-about {
 		position: relative;
@@ -561,7 +566,7 @@ html.js,
 		height: auto !important;
 	}
 
-	.contact-form-container, .about-panel-wrapper {
+	.contact-form-container {
 		background: #F4F3F3;
 		font-family: "Lato", sans-serif;
 		display: inline-block;

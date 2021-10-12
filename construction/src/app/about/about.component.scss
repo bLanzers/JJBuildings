@@ -3,10 +3,10 @@ $moveup: up-two up-three up-four;
 $break-small: 450px;
 $break-large: 1199px;
 
-$pink: #FE5D14;
-$dark-purp:#00235A;
-$med-purp:#00235A;
-$light-purp: FE5D14;
+$pink: #FEBE09;
+$dark-purp:#060B47;
+$med-purp:#060B47;
+$light-purp: #FEBE09;
 
 
 /*  About Page animation for content  */
@@ -52,7 +52,7 @@ body {
 .container {
   margin: 0;
   padding: 0;
-	background-color:FE5D14;
+	background-color: rgba(233, 150, 122, 0.2);
 	background-color:white;
   overflow-y: auto;
   height: 100vh;
@@ -73,7 +73,7 @@ body {
 	.photo-about{
 		position:relative;
 		top:0;
-		height: 100vh ;
+		height: 100vh !important;
 		background-size: cover;
 		overflow: hidden
 	}
@@ -123,12 +123,41 @@ body {
 		}
   }
 }
+// @media only screen and (max-width: 767px){
+//   .about-content{
+//     padding-left:0 !important;
+//     padding-right: 0 !important;
+//     padding-top: 20vh !important;
+//     float: none !important;
+
+//   }
+//   .about-content{
+//     max-width: 100% !important;
+//     width: 100% !important;
+//     float: none !important;
+//   }
+//   .about-panel .photo-about,
+//   .about-panel{
+//     max-width: 100% !important;
+//     width: 100% !important;
+//     height: 20vh !important;
+//   }
+//   .photo-about{
+//     height: 20vh !important;
+//   }
+// }
+
+@media only screen and (max-width: 767px) {
+  .about-panel[_ngcontent-serverApp-c17] .photo-about[_ngcontent-serverApp-c17] {
+    height: 210px !important;
+  }
+}
 
 .about-content{
   float:left;
   padding-top:30px;
   background: white;
-  color:#00235A;
+  color:$dark-purp;
 
   p, blockquote{
     font-size:13px;
@@ -182,7 +211,7 @@ body {
     font-size: 15px !important;
     line-height: 25px !important;
     width: 100%;
-		color: #00235A;
+		color: $med-purp;
 }
 
 /* Generates animations for cascading tiles */
@@ -220,7 +249,7 @@ body {
 .hide-photo-filter {
     position: relative;
     top: 0;
-    background-color:rgb(254 93 20 / 72%);
+    background-color:rgba(243, 205, 99, 0.5);
     z-index: 50;
     width: 100%;
     height: 100%;

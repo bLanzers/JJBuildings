@@ -367,6 +367,14 @@ form small {
   color: #0235A0;
   margin: 0 0 0 0.5em;
 }
+@media only screen and (max-width: 767px){
+  form{
+    height: 320px !important;
+  }
+  form button {
+    bottom: 15px !important;
+  }
+}
 
 @media only screen and (max-width: 480px) {
 

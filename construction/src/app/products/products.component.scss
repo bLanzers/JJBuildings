@@ -883,7 +883,11 @@ body {
 }
 @media (max-width: 767px) {
   .accordion-group {
-    height: 360px;
+    height: 100vh !important;
+  }
+  .accordion-group li section article p {
+    position: relative !important;
+    right: 68px !important;
   }
   .accordion-group li {
     display: flex;

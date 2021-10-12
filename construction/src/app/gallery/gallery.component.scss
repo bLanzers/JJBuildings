@@ -26,6 +26,7 @@ body {
 }
 #gallery b {
   font-weight: bold;
+  color: #fff;
 }
 
 #gallery #images {
@@ -71,7 +72,8 @@ body {
 #gallery #images .figure .text {
   position: relative;
   font-size: 1.6rem;
-  opacity: 0;
+  color: #fff;
+  opacity: 1;
   transform: translateY(5vh);
   transition: all 0.4s ease-in-out;
   transition-delay: 0.1s;
