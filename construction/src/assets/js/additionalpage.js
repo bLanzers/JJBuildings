@@ -494,7 +494,7 @@ class Slideshow {
     };
     $(function () {
         var $accordion, $wideScreen;
-        $accordion = $('#accordion').children('li');
+        $accordion = $('#accordion,#accordion1').children('li');
         $wideScreen = $(window).width() > 767;
         if ($wideScreen) {
             $accordion.on('mouseenter click', function (e) {
